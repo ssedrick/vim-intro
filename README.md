@@ -6,7 +6,7 @@
 ![Editor Difficulty levels](https://i.warosu.org/data/g/img/0655/93/1524090199109.png)
 
 ## Setting up using this repo
-If you want a quick and dirty vimrc that you can start from, simply copy the ./vimrc file to `~/.vimrc`. Open vim and you should be good to go. The first time you open vim, you will need to do `:PlugInstall` to install all the plugins
+If you want a quick and dirty vimrc that you can start from, simply copy the ./vimrc file to `~/.vim/vimrc` on Unix and `$HOME/vimfiles/vimrc` on windows. Open vim and you should be good to go. The first time you open vim, you will need to do `:PlugInstall` to install all the plugins
 
 ### Different modes
 #### Normal Mode
@@ -203,7 +203,7 @@ Vim allows for creating sessions:
 `:mks` will save all window positions and files open. Use `vim -S Session.vim` to load the session back
 
 ## Configuration
-Default file is `~/.vimrc`
+Default file is `~/.vim/vimrc`
 
 ### Plugins
 
